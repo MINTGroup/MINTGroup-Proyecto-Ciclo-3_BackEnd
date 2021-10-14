@@ -1,10 +1,14 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
-const SellerLayout = () =>{
+const SellerLayout = ({children}) =>{
     return (
-      <div>
-          soy un layout de seller
-      </div>
+        <div>
+            <Navbar/>
+            <main>{children}</main>
+            <Footer/>
+        </div>
     );
 }
 export default SellerLayout;

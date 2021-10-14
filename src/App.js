@@ -16,6 +16,7 @@ import {
 import Products from "./pages/admin/Products";
 import Seller from "./pages/admin/Seller";
 import Index from "./pages/admin/Index";
+import IndexAuth from "./pages/auth/IndexAuth";
 import {DarkModeContext} from "./context/darkMode";
 import {useState} from "react";
 
@@ -36,13 +37,21 @@ function App() {
                                     <Route path='/admin/vendedor'>
                                         <Seller/>
                                     </Route>
-                                    <Route path='/'>
+                                    <Route path='/admin'>
                                         <Index/>
                                     </Route>
                                 </Switch>
                             </AdminLayout>
                         </Route>
-                        <Route path={['/login','/registro']}>
+                        <Route path={['/seller']}>
+                            <SellerLayout>
+                                <Switch>
+                                    <Route path='/seller'>
+                                    </Route>
+                                </Switch>
+                            </SellerLayout>
+                        </Route>
+                        <Route path={['/','/login','/registro']}>
                             <AuthLayout>
                                 <Switch>
                                     <Route path='/login'>
@@ -51,17 +60,11 @@ function App() {
                                     <Route path='/registro'>
                                         <SignUp/>
                                     </Route>
-                                </Switch>
-                            </AuthLayout>
-                        </Route>
-                        <Route path={['/']}>
-                            <SellerLayout>
-                                <Switch>
                                     <Route path='/'>
-                                        <Index/>
+                                        <IndexAuth/>
                                     </Route>
                                 </Switch>
-                            </SellerLayout>
+                            </AuthLayout>
                         </Route>
                     </Switch>
                 </Router>

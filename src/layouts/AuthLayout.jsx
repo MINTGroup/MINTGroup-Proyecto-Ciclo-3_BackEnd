@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
-const AuthLayout = () =>{
+const AuthLayout = ({children}) =>{
     return (
         <div>
-            soy una pagina Auth
+            <main>{children}</main>
         </div>
     );
 }

@@ -44,7 +44,7 @@ const LogIn = () =>{
                 </div>
             </div>
             <div className="col-md-6 order-md-2">
-                <img src="../src/assets/img/Cover.svg " width="100%"/>
+                <img src="../src/assets/img/svg.jpg " width="100%"/>
             </div>
         </div>
     );
