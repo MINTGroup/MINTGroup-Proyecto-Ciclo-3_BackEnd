@@ -15,8 +15,8 @@ app.use(Express.json());
 app.use(cors());
 /*app.use(rutasProducto());*/
 
-const stringConnection =
-    'mongodb+srv://yuliannn94:Mortadela23@cluster-mint.0tc4r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+/*const stringConnection =
+    ;*/
 
 let connection;
 const client = new MongoClient(stringConnection, {
