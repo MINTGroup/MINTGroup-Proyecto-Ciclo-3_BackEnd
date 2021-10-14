@@ -3,7 +3,7 @@ import React from "react";
 const SignUp = () => {
     return(
         <div className="container">
-            <div className="row">
+            <div className="row mb">
                 <div className="col-md-6 order-md-1">
                     <div className="row justify-content-center">
                         <div className="col-md-8">
