@@ -1,14 +1,14 @@
-import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import React from "react";
 
-const Layout = ({children}) => {
+const AdminLayout = ({children}) => {
     return(
       <div>
-          <Header/>
+          <Navbar/>
           <main>{children}</main>
           <Footer/>
       </div>
     );
 }
-export default Layout;
+export default AdminLayout;

@@ -6,6 +6,7 @@ body {
     left: 0;
     right: 0;
 }
+
 .fondo {
     background-color: #e2e5e8;
     margin-top: 2%;
@@ -20,13 +21,38 @@ body {
 
 .bg-secondary {
     background-color: #091f3c !important;
+
 }
 
+.btn-outline-primary {
+    border-color: #091f3c;
+    color: #279d85;
+    box-shadow: none;
+}
+
+.btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active,.btn-outline-primary:hover {
+    color: #f8f9fa;
+    background-color: #279d85;
+    border-color: #279d85;
+    box-shadow: none;
+}
+
+.btn-outline-secondary {
+    border-color: #f8f9fa;
+    color: #091f3c;
+    box-shadow: none;
+}
+
+.btn-check:active + .btn-outline-secondary, .btn-check:checked + .btn-outline-secondary, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show, .btn-outline-secondary:active,.btn-outline-secondary:hover {
+    color: #f8f9fa;
+    background-color: #091f3c;
+    border-color: #091f3c;
+    box-shadow: none;
+}
 
 .card {
     border-radius: 10px;
 }
-
 
 
 .navbar-nav {
@@ -37,16 +63,20 @@ body {
     background-color: #38d39f;
     height: 55px;
 }
-.btn-logreg:hover{
+
+.btn-logreg:hover {
     cursor: pointer;
     background: #24a178;
 }
-.form-control:focus{
+
+.form-control:focus {
     box-shadow: none;
 }
-#myImage{
+
+#myImage {
     max-width: 120px;
 }
-#myImage1{
+
+#myImage1 {
     max-width: 120px;
 }
