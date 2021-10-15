@@ -25,7 +25,7 @@ const Footer = () =>{
                 </section>
             </div>
             <div className="text-center p-3 bg-primary" style={{backgroundColor: 'rgba(0,0,0,.25)'}}>
-                Develop by MINT
+                Developed by MINT
             </div>
         </footer>
     );
