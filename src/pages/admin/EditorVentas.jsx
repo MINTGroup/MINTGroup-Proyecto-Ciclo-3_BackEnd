@@ -1,11 +1,12 @@
 import React from "react";
+import logo from "../../assets/img/LOGO_MINT(no fondo).png";
 
 const EditorVentas = () => {
     return(
         <div className="row justify-content-md-center mb-4 mt-4">
             <div className="col-md-5 rounded bgwhite px-5 py-3 ">
                 <div className="text-center mb-3">
-                    <img className="logo center" src="./assets/img/LOGO_MINT(no%20fondo).png" alt="LOGO" width="10%"/>
+                    <img className="logo center" src={logo} alt="LOGO" width="50px"/>
                 </div>
                 <div className="text-center mb-3">
                     <h3>Sells Manager</h3>

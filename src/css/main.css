@@ -1,3 +1,5 @@
+/*@login login;*/
+
 body {
     margin: 0;
     padding: 0;
@@ -23,6 +25,17 @@ body {
     background-color: #091f3c !important;
 
 }
+.bg-tertiary {
+    background-color: #2a2929 !important;
+
+}
+
+.gb-cuaternary{
+    background-color: #e5e5e5 !important;
+}
+/*.gradient-custom {
+    background: linear-gradient(to bottom, rgba(42, 41, 41, 0.5), rgba(0, 0, 0, 0.5))
+}*/
 
 .btn-outline-primary {
     border-color: #091f3c;
@@ -79,4 +92,9 @@ body {
 
 #myImage1 {
     max-width: 120px;
+}
+
+logo{
+    width: 65px !important;
+    height: 65px !important;
 }

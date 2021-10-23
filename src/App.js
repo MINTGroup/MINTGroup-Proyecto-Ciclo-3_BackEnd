@@ -1,8 +1,8 @@
 import "./css/Styles.css";
-import GestorVendedores from "./pages/GestorVendedores";
+import GestorVendedores from "./pages/admin/GestorVendedores";
 import AdminLayout from "./layouts/AdminLayout";
-import EditorProductos from "./pages/EditorProductos";
-import EditorVentas from "./pages/EditorVentas";
+import EditorProductos from "./pages/admin/EditorProductos";
+import EditorVentas from "./pages/admin/EditorVentas";
 import LogIn from "./pages/auth/LogIn";
 import SignUp from "./pages/auth/SignUp";
 import SellerLayout from "./layouts/SellerLayout";
@@ -37,8 +37,14 @@ function App() {
                                     <Route path='/admin/vendedor'>
                                         <Seller/>
                                     </Route>
-                                    <Route path='/admin'>
-                                        <Index/>
+                                    <Route path='/admin/ventas'>
+                                        <EditorVentas/>
+                                    </Route>
+                                    <Route path='/admin/vendedores'>
+                                        <GestorVendedores/>
+                                    </Route>
+                                    <Route path='/admin/products-edit'>
+                                        <EditorProductos/>
                                     </Route>
                                 </Switch>
                             </AdminLayout>

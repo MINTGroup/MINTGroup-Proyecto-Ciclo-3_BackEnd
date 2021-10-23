@@ -1,13 +1,16 @@
 import React from "react";
 import {useDarkMode} from "../context/darkMode";
 import {Link} from "react-router-dom";
+import logonofondo from "../assets/img/LOGO_MINT(no fondo).png";
 
 const Navbar = () => {
     const {darkMode, setDarkMode} = useDarkMode()
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">MINT</a>
+                <a className="navbar-brand" href="#">MINT
+                    {/*<img className="brand-logo" width="65px" src={logonofondo} />*/}
+                </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false"

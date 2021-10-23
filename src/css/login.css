@@ -6,7 +6,9 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #f8fafb;
 }
-
+.p-30 {
+  padding: 30px !important;
+}
 
 .grid-container {
   display: grid;
@@ -137,9 +139,9 @@ body {
   display: flex;
   align-items: center;
 }
-.logo{
+/*.logo{
   height: 50px;
-}
+}*/
 
 .footer{
   display: flex;
