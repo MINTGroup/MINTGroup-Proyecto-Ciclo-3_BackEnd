@@ -1,4 +1,7 @@
 {
+  "name": "mint-project-back",
+  "version": "0.1.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "start": "node server.js"
@@ -10,6 +13,7 @@
     "mongodb": "^4.1.3"
   },
   "devDependencies": {
+    "mongoose": "^6.0.12",
     "nodemon": "^2.0.13"
   }
 }

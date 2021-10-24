@@ -1,10 +1,13 @@
-import Express from 'express';
-/*const Express = require('express');*/
-import { MongoClient } from "mongodb";
-/*const { MongoClient } = require('mongodb').MongoClient;*/
-import dotenv from 'dotenv';
-import cors from 'cors';
-//TODO: import rutasProducto from '/ruta';
+/*import Express from 'express';*/
+const Express = require('express');
+/*import { MongoClient } from "mongodb";*/
+const dotenv = require ("dotenv");
+const cors = require ("cors");
+const mongoose = require ("mongoose");
+const { MongoClient } = require('mongodb').MongoClient;
+/*import dotenv from 'dotenv';
+import cors from 'cors';*/
+
 
 
 
