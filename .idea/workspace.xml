@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dbd90c0-e727-408a-99af-c516203dfbc1" name="Changes" comment="Conexión a base de datos establecida">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Sales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Seller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/Products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/Sales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/Seller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/Users.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ensayos" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zESVxQekBRYKgR4wqLRq8IRj6X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Normal\2021\Cursos\MINTIC - Programación - UDEA\Ciclo 3\Proyecto-MINT_Back\MINTGroup-Proyecto-Ciclo-3_BackEnd\src\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Normal\2021\Cursos\MINTIC - Programación - UDEA\Ciclo 3\Proyecto-MINT_Back\MINTGroup-Proyecto-Ciclo-3_BackEnd\src\pages\admin" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dbd90c0-e727-408a-99af-c516203dfbc1" name="Changes" comment="" />
+      <created>1633711802455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633711802455</updated>
+      <workItem from="1633711806307" duration="5307000" />
+      <workItem from="1633723096547" duration="8239000" />
+      <workItem from="1633784848311" duration="4113000" />
+      <workItem from="1634263074130" duration="5813000" />
+      <workItem from="1634333724476" duration="272000" />
+      <workItem from="1634338062609" duration="10531000" />
+      <workItem from="1634854352715" duration="5293000" />
+      <workItem from="1634946131010" duration="589000" />
+      <workItem from="1635025233527" duration="3695000" />
+      <workItem from="1635039349249" duration="4088000" />
+      <workItem from="1635080996559" duration="4549000" />
+      <workItem from="1635167774386" duration="7066000" />
+    </task>
+    <task id="LOCAL-00001" summary="Añadir botones y rutas del navbar, logo, acciones. (ver comentario)">
+      <created>1634265887974</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634265887975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Últimos cambios antes de transferencia a repodel front">
+      <created>1635026495626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635026495626</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Intentando la conexión con la base de datos">
+      <created>1635081779278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635081779278</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Añadir botones y rutas del navbar, logo, acciones. (ver comentario)" />
+    <MESSAGE value="Últimos cambios antes de transferencia a repodel front" />
+    <MESSAGE value="Intentando la conexión con la base de datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intentando la conexión con la base de datos" />
+  </component>
+</project>
