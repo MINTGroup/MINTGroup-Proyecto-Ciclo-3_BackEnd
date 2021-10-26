@@ -4,21 +4,20 @@ const Schema = mongoose.Schema;
 
 const productSchema = new Schema(
     {
-        productName:{type:String, required:true, min:3, max:30},
-        productBrand:{
+        productBrand:{type:String, required:true, min:3, max:30},
+        productName:{
             type:String,
             required:true,
             min:10,
             max:100
         },
-        productReleaseYear:{
-            type:String,
+        productModel:{
+            type:Number,
             required:true,
-            min:4,
-            max:4
+            min:4
         },
         productValue:{
-            type: Number,
+            type: String,
             required:true,
             min: 4,
             max: 6

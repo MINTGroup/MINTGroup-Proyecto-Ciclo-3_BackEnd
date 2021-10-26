@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const userSchema = new Schema(
     {
-        name: {
+        userName: {
             type:String,
             required:true,
             min:3,
@@ -21,10 +21,10 @@ const userSchema = new Schema(
             required:true,
             min:6,
         },
-        role:{type: String, required:true, default:undefined},
+        role:{type: String, default:undefined},
         date:{type:Date, default: Date.now()}
     }
-    )
+    );
 
 const User = mongoose.model('User', userSchema);
 

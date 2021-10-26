@@ -9,9 +9,15 @@ router.route('/').get((req, res) => {
 });
 
 router.route('/add').post((req, res) => {
+    const sellerID = req.body.sellerID;
     const sellerName = req.body.sellerName;
+    const email = req.body.email;
 
-    const newSeller = new Seller({sellerName});
+    const newSeller = new Seller({
+        sellerID,
+        sellerName,
+        email,
+    });
 
     newSeller.save()
         .then(() => res.json('Success adding new seller!'))
