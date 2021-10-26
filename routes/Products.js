@@ -28,4 +28,30 @@ router.route('/add').post((req, res) => {
         .catch(err => res.status(400).json('An error has occurred: ' + err));
 });
 
+router.route('/:id').get((req, res) => {
+    Product.findById(req.params.id)
+        .then(product=> res.json(user))
+        .catch(err => res.status(400).json('An error has occurred: ' + err));
+});
+router.route('/delete/:id').delete((req, res) => {
+    Product.findByIdAndDelete(req.params.id)
+        .then(() => res.json('Success deleting product.'))
+        .catch(err => res.status(400).json('An error has occurred: ' + err));
+});
+router.route('/update/:id').patch((req, res) => {
+    Product.findById(req.params.id)
+        .then(product => {
+            product.productBrand = req.body.productBrand;
+            product.productName = req.body.productName;
+            product.productModel = req.body.productModel;
+            product.productValue = req.body.productValue;
+            product.date = req.body.date;
+
+            product.save()
+                .then(() => res.json('Success updating product!'))
+                .catch(err => res.status(405).json('An error has occurred: ' + err));
+        })
+        .catch(err => res.status(405).json('An error has occurred: ' + err));
+});
+
 module.exports = router;

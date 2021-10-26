@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dbd90c0-e727-408a-99af-c516203dfbc1" name="Changes" comment="Conexión a base de datos establecida.&#10;Agregar rutas y modelos de DB">
+    <list default="true" id="8dbd90c0-e727-408a-99af-c516203dfbc1" name="Changes" comment="Agregar rutas y modelos de DB pt.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/Sales.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Sales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Seller.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Seller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/Sales.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Sales.js" afterDir="false" />
@@ -97,7 +95,9 @@
       <workItem from="1635080996559" duration="4549000" />
       <workItem from="1635167774386" duration="7293000" />
       <workItem from="1635187829062" duration="649000" />
-      <workItem from="1635207883343" duration="10559000" />
+      <workItem from="1635207883343" duration="10664000" />
+      <workItem from="1635255679412" duration="4619000" />
+      <workItem from="1635265827138" duration="4489000" />
     </task>
     <task id="LOCAL-00001" summary="Añadir botones y rutas del navbar, logo, acciones. (ver comentario)">
       <created>1634265887974</created>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635182407726</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Agregar rutas y modelos de DB pt.2">
+      <created>1635218983112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635218983113</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +158,7 @@
     <MESSAGE value="Últimos cambios antes de transferencia a repodel front" />
     <MESSAGE value="Intentando la conexión con la base de datos" />
     <MESSAGE value="Conexión a base de datos establecida.&#10;Agregar rutas y modelos de DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conexión a base de datos establecida.&#10;Agregar rutas y modelos de DB" />
+    <MESSAGE value="Agregar rutas y modelos de DB pt.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar rutas y modelos de DB pt.2" />
   </component>
 </project>

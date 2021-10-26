@@ -21,7 +21,7 @@ const userSchema = new Schema(
             required:true,
             min:6,
         },
-        role:{type: String, default:undefined},
+        role:{type: String},
         date:{type:Date, default: Date.now()}
     }
     );

@@ -6,7 +6,7 @@ const saleSchema = new Schema(
     {
         productID: {type: String, required: true},
         sellerID: {type: String, required: true},
-        amount: {type: Number, min: 1, max: 2, default: 1},
+        amount: {type: Number, min: 1, max: 20, default: 1},
         totalValue: {type: Number, required: true, min: 4},
         date: {type: Date, default: Date.now()}
     })
